@@ -331,7 +331,7 @@ func help() {
 func main() {
 	flag.Parse()
 	// log.SetOutput(f)
-
+	help()
 	dir, err := filepath.Abs(filepath.Dir(os.Args[0]))
 	if err != nil {
 		log.Println("为获取到当前路径")
