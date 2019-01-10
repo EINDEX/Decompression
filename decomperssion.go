@@ -6,6 +6,7 @@ import (
 	"crypto/md5"
 	"encoding/hex"
 	"flag"
+	"fmt"
 	"io"
 	"io/ioutil"
 	"log"
@@ -321,7 +322,10 @@ func getFiles(rootpath string, fileChan chan<- string) {
 }
 
 func help() {
-
+	fmt.Println("Decompression ———— 递归解压分类工具")
+	fmt.Println("支持对 Zip、RAR、Tar、TarGz、7z(不完全)的解压")
+	fmt.Println("作者: EINDEX http://github.com/EINDEX")
+	fmt.Println("http://github.com/EINDEX/Decompression")
 }
 
 func main() {
