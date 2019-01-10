@@ -13,12 +13,15 @@ Usage of ./decomperssion:
 
 ### Windows X64
 相同目录下 有 `7z.exe`  `7z.dll` `7-zip.dll`
-decomperssion.exe -w=<目录名>
+
+`decomperssion.exe -w=<目录名>`
 
 ### MacOS
 `brew install p7zip`
+
 `./decomperssion_macos -w=<目录名>`
 
 ### Linux X64
 `apt install p7zip`
+
 `./decomperssion_linux_x64 -w=<目录名>`
